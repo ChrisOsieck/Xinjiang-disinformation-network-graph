@@ -22,7 +22,7 @@ const DescriptionPanel: FC = () => {
         <i>node</i> represent Twitter accounts, and vary in size based on the engagement of the account. Larger nodes represent more followers and interactions, <i>edges</i> display the relationship between the accounts. In this visualization, quote tweets, retweets, and replies are pictured.
       </p>
       <p>
-        The social media channels were identified by the following researchers{" "}
+        The social media channels were identified by the following researchers:{" "}
         <a target="_blank" rel="noreferrer" href="https://twitter.com/ChrisOsieck">
           Chris Osieck, {" "} 
         </a>
@@ -42,7 +42,7 @@ const DescriptionPanel: FC = () => {
       <p>
         Tristan Lee from {" "}
         <a target="_blank" rel="noreferrer" href="https://www.bellingcat.com/">
-          Bellingcat
+          {" "} Bellingcat
         </a>
          contributed to this visualization, using{" "}
         <a target="_blank" rel="noreferrer" href="https://reactjs.org/">
