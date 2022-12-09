@@ -17,18 +17,17 @@ const DescriptionPanel: FC = () => {
         This visualisation represents a <i>network</i> of{" "}
           social-media profiles
         that are connected to {" "}
- the Ministry of Foreign Affairs of the People's Republic of China
-       . Each{" "}
-        <i>node</i> represent Twitter accounts, and vary in size based on the engagement of the account. Larger nodes represent more followers and interactions., <i>edges</i> display the relationship between the accounts. In this visualization, quote tweets, retweets, and replies are pictured. 
-        .
+ the Ministry of Foreign Affairs of the People's Republic of China. 
+        Each{" "}
+        <i>node</i> represent Twitter accounts, and vary in size based on the engagement of the account. Larger nodes represent more followers and interactions, <i>edges</i> display the relationship between the accounts. In this visualization, quote tweets, retweets, and replies are pictured.
       </p>
       <p>
         The social media channels were identified by the following researchers{" "}
         <a target="_blank" rel="noreferrer" href="https://twitter.com/ChrisOsieck">
-          Chris Osieck
+          Chris Osieck, 
         </a>
         <a target="_blank" rel="noreferrer" href="https://twitter.com/MischaU8">
-          Mischa Untaga
+           Mischa Untaga
         </a>{" "}and{" "}
         <a target="_blank" rel="noreferrer" href="https://twitter.com/rosa_noctis">
           Morsaki
@@ -45,8 +44,7 @@ const DescriptionPanel: FC = () => {
         <a target="_blank" rel="noreferrer" href="https://www.bellingcat.com/">
           Bellingcat
         </a>
-        contributed to this visualization.
-        , using{" "}
+         contributed to this visualization, using{" "}
         <a target="_blank" rel="noreferrer" href="https://reactjs.org/">
           react
         </a>{" "}
@@ -61,18 +59,16 @@ const DescriptionPanel: FC = () => {
         .
       </p>
       <p>
-        Node sizes are related to the number of times the entity was mentioned in the database.
+        Node sizes are related to the number of followers and interactions.
       </p>
       <p>
-        Nodes are colored based a{" "}
-        <a target="_blank" rel="noreferrer" href="https://arxiv.org/abs/0803.0476">
-        community detection algorithm
+        Nodes are colored randomly.
         </a>.
       </p>
       <p>
-        For visualisation purposes, edges were pruned using the{" "}
-        <a target="_blank" rel="noreferrer" href="https://github.com/naviddianati/GraphPruning">
-          Marginal Likelihood Filter
+        The tool that was used to make this network analysis was the open source visualization platform{" "}
+        <a target="_blank" rel="noreferrer" href="https://gephi.org/">
+          Gephi
         </a>
         .
       </p>
