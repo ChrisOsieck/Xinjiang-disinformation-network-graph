@@ -24,7 +24,7 @@ const DescriptionPanel: FC = () => {
       <p>
         The social media channels were identified by the following researchers{" "}
         <a target="_blank" rel="noreferrer" href="https://twitter.com/ChrisOsieck">
-          Chris Osieck, 
+          Chris Osieck, {" "} 
         </a>
         <a target="_blank" rel="noreferrer" href="https://twitter.com/MischaU8">
            Mischa Untaga
@@ -40,7 +40,7 @@ const DescriptionPanel: FC = () => {
         .
       </p>
       <p>
-        Tristan Lee from{" "}
+        Tristan Lee from {" "}
         <a target="_blank" rel="noreferrer" href="https://www.bellingcat.com/">
           Bellingcat
         </a>
