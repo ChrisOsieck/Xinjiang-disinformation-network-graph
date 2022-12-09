@@ -44,7 +44,7 @@ const DescriptionPanel: FC = () => {
         <a target="_blank" rel="noreferrer" href="https://www.bellingcat.com/">
           {" "} Bellingcat
         </a>
-         contributed to this visualization, using{" "}
+         {" "} contributed to this visualization, using{" "}
         <a target="_blank" rel="noreferrer" href="https://reactjs.org/">
           react
         </a>{" "}
