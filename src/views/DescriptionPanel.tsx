@@ -15,35 +15,37 @@ const DescriptionPanel: FC = () => {
     >
       <p>
         This visualisation represents a <i>network</i> of{" "}
-        <a target="_blank" rel="noreferrer" href="https://spacy.io/usage/linguistic-features#named-entities">
-          named entities
-        </a> in English-language posts archived in the{" "}
-        <a target="_blank" rel="noreferrer" href="https://labs.bellingcat.com/proto/qanon/#/posts">
-          European QAnon database
-        </a>. Each{" "}
-        <i>node</i> represents an entity, <i>edges</i> between nodes indicate that one or more posts contain both entities
+          social-media profiles
+        that are connected to {" "}
+ the Ministry of Foreign Affairs of the People's Republic of China
+       . Each{" "}
+        <i>node</i> represent Twitter accounts, and vary in size based on the engagement of the account. Larger nodes represent more followers and interactions., <i>edges</i> display the relationship between the accounts. In this visualization, quote tweets, retweets, and replies are pictured. 
         .
       </p>
       <p>
-        The social media channels were identified by researchers from{" "}
-        <a target="_blank" rel="noreferrer" href="https://www.bellingcat.com/">
-          Bellingcat
+        The social media channels were identified by the following researchers{" "}
+        <a target="_blank" rel="noreferrer" href="https://twitter.com/ChrisOsieck">
+          Chris Osieck
+        </a>
+        <a target="_blank" rel="noreferrer" href="https://twitter.com/MischaU8">
+          Mischa Untaga
         </a>{" "}and{" "}
-        <a target="_blank" rel="noreferrer" href="https://www.lighthousereports.nl/">
-          Lighthouse Reports
+        <a target="_blank" rel="noreferrer" href="https://twitter.com/rosa_noctis">
+          Morsaki
         </a>
         .
-        The entities were identified using {" "}
-        <a target="_blank" rel="noreferrer" href="https://spacy.io/">
-          spaCy
+        The entities were identified using the {" "}
+        <a target="_blank" rel="noreferrer" href="https://scrapy.org/">
+          Scrapy framework
         </a>
         .
       </p>
       <p>
-        This web application has been developed by{" "}
+        Tristan Lee from{" "}
         <a target="_blank" rel="noreferrer" href="https://www.bellingcat.com/">
           Bellingcat
         </a>
+        contributed to this visualization.
         , using{" "}
         <a target="_blank" rel="noreferrer" href="https://reactjs.org/">
           react
