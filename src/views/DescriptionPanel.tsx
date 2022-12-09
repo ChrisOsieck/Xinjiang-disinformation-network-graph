@@ -63,7 +63,6 @@ const DescriptionPanel: FC = () => {
       </p>
       <p>
         Nodes are colored randomly.
-        </a>.
       </p>
       <p>
         The tool that was used to make this network analysis was the open source visualization platform{" "}
