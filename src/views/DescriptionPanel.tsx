@@ -19,7 +19,7 @@ const DescriptionPanel: FC = () => {
         that are connected to {" "}
  the Ministry of Foreign Affairs of the People's Republic of China. 
         Each{" "}
-        <i>node</i> represent Twitter accounts, and vary in size based on the engagement of the account. Larger nodes represent more followers and interactions, <i>edges</i> display the relationship between the accounts. In this visualization, quote tweets, retweets, and replies are pictured.
+        <i>node</i> represents Twitter accounts, and vary in size based on the engagement of the account. Larger nodes represent more followers and interactions, <i>edges</i> display the relationship between the accounts. In this visualization, quote tweets, retweets, and replies are pictured.
       </p>
       <p>
         The social media profiles were identified by the following researchers:{" "}
